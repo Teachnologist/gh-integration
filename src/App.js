@@ -17,8 +17,8 @@ function App() {
         >
           Learn React
         </a>
-        <p>JT added this line</p>
       </header>
+      <p>JT added this line</p>
     </div>
   );
 }
