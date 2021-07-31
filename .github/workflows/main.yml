@@ -3,7 +3,7 @@
     on:
       push:
         branches:
-          - master
+          - main
     jobs:
       build:
         runs-on: ubuntu-latest
@@ -12,5 +12,5 @@
           - uses: akhileshns/heroku-deploy@v3.12.11
             with:
               heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-              heroku_app_name: "github-cicd1"
+              heroku_app_name: "pure-shelf-53903"
               heroku_email: "trichejason@gmail.com"
